@@ -1,0 +1,178 @@
+@keyframes dotPulse {
+    0% { opacity: 0.2; }
+    50% { opacity: 1; }
+    100% { opacity: 0.2; }
+}
+
+.flag-au {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -10px -10px;
+}
+
+.flag-br {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -60px -10px;
+}
+
+.flag-ca {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -10px -50px;
+}
+
+.flag-de {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -60px -50px;
+}
+
+.flag-fi {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -110px -10px;
+}
+
+.flag-fr {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -110px -50px;
+}
+
+.flag-gb {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -10px -90px;
+}
+
+.flag-gr {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -60px -90px;
+}
+
+.flag-hr {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -110px -90px;
+}
+
+.flag-jp {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -160px -10px;
+}
+
+.flag-nl {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -160px -50px;
+}
+
+.flag-no {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -160px -90px;
+}
+
+.flag-pl {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -10px -130px;
+}
+
+.flag-se {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -60px -130px;
+}
+
+.flag-rs {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -110px -130px;
+}
+
+.flag-sg {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -160px -130px;
+}
+
+.flag-tr {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -10px -170px;
+}
+
+.flag-ua {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -60px -170px;
+}
+
+.flag-us {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -110px -170px;
+}
+
+.flag-za {
+    width: 30px;
+    height: 20px;
+    background: url('https://cdn.fragify.net/images/flags-sprite.png') -160px -170px;
+}
+
+.location-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2em;
+    padding: 2em;
+    transition: all 0.5s ease-in-out;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    color: #ffffff; /* white text */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* shadow with slightly higher opacity */
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card.selected {
+    background-color: #3a3a3a; /* slightly lighter grey */
+}
+
+button {
+    /* margin-top: 2em; */
+    padding: 0.5em 1em;
+    font-size: 1em;
+    color: #ffffff; /* white text */
+    /* background-color: #007BFF; blue background */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    /* background-color: #0056b3; darker blue on hover */
+}

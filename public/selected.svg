@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="46px" viewBox="0 0 54 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>selected</title>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04.01-Minecraft_D" transform="translate(-602.000000, -919.000000)">
+            <g id="Modpacks" transform="translate(344.000000, 786.000000)">
+                <g id="01.-Input-/-Game-Option-/-Normal" transform="translate(196.000000, 133.306306)">
+                    <g id="selected" transform="translate(62.000000, 0.000000)">
+                        <path d="M0,18 C0,32.9116882 12.0883118,45 27,45 C41.9116882,45 54,32.9116882 54,18" id="Path" fill="#e90e0e"></path>
+                        <path d="M2,17 C2,31.3594035 13.1928813,43 27,43 C40.8071187,43 52,31.3594035 52,17" id="Path" fill="#0D1622"></path>
+                        <g transform="translate(8.000000, 0.000000)">
+                            <circle id="Oval" fill="#e90e0e" cx="19" cy="19" r="19"></circle>
+                            <g id="Icon-24px" transform="translate(7.000000, 7.000000)">
+                                <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                                <polygon id="Shape" fill="#FFFFFF" points="9 16.2 4.8 12 3.4 13.4 9 19 21 7 19.6 5.6"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

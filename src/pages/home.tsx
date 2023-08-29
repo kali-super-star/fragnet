@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import { Game, Location } from "../types";
-import { fetchData, fetchLocations } from "../utils";
+import { Game } from "../types";
+import { fetchData } from "../utils";
 import News from "../components/News";
 import Reviews from "../components/Reviews";
 import Carousel from "../components/Carousel";
@@ -14,11 +14,8 @@ import Footer from "../components/Footer";
 
 const HomePage: React.FC = () => {
   const [games, setGames] = useState<Game[]>([]);
-  const [locations, setLocations] = useState<Location[]>([]);
-
   useEffect(() => {
     fetchData("/games").then(setGames);
-    fetchLocations().then(setLocations);
     document.title = "Premium Server Hosting | Built for Gamers";
   }, []);
 

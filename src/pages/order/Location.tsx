@@ -46,18 +46,6 @@ function LatencyCheckPage() {
     }
   };
 
-  const getLatencyIcon = (latency: number | null) => {
-    if (latency === null) {
-      return faSpinner;
-    } else if (latency <= 79) {
-      return faGaugeHigh;
-    } else if (latency <= 100) {
-      return faGauge;
-    } else {
-      return faSpinner;
-    }
-  };
-
   useEffect(() => {
     fetchLocations().then((res: Location[]) => {
       setLocations(res);

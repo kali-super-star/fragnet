@@ -1,5 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { I18n } from "react-redux-i18n";
 import Isotope from "isotope-layout";
@@ -68,7 +67,11 @@ const GameServers: React.FC = () => {
                 Excellent
               </h1>
               <div className="flex justify-center w-[150px] md:ml-5 mx-5 h-[28px]">
-                <img src={`${CDN}images/fourfivestars.png`} className="" />
+                <img
+                  src={`${CDN}images/fourfivestars.png`}
+                  className=""
+                  alt="img"
+                />
               </div>
             </div>
             <span className="block my-2">
@@ -88,6 +91,7 @@ const GameServers: React.FC = () => {
               <img
                 src={`${CDN}images/games-trustpilot.png`}
                 className="h-[24px] ml-5"
+                alt="img"
               />
             </a>
           </div>

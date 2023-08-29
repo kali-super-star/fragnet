@@ -307,7 +307,7 @@ const GameLocation: React.FC = () => {
                         <li>
                           {I18n.t("testServers")}
                           {":"}
-                          <a className="ml-1 font-bold text-red-500">
+                          <a href="/#" className="ml-1 font-bold text-red-500">
                             {I18n.t("comingSoon")}
                           </a>
                         </li>

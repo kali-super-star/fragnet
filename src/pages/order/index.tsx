@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
-import { Game, Location as location } from "../../types";
-import { fetchData, fetchLocations } from "../../utils";
+import { Location as location } from "../../types";
+import { fetchLocations } from "../../utils";
 import Footer from "../../components/Footer";
 import Location from "./Location";
 import RightSide from "./RightSide";
@@ -16,7 +16,6 @@ const BodyWrapper = styled.div`
 `;
 
 const Order: React.FC = () => {
-  const slug = useParams();
   const [locations, setLocations] = useState<location[]>([]);
   console.log(locations);
   useEffect(() => {

@@ -1,28 +1,9 @@
 import React from "react";
 import { I18n } from "react-redux-i18n";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronCircleLeft } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
-
-const ServiceWrapper = styled.div`
-  & img:nth-child(1) {
-    display: inline-block;
-  }
-  & img:nth-child(2) {
-    display: none;
-  }
-  &:hover img:nth-child(1) {
-    display: none;
-  }
-  &:hover img:nth-child(2) {
-    display: inline-block;
-  }
-  &:hover a {
-    color: #e90e0e;
-  }
-`;
 
 const GetStarted: React.FC = () => {
   return (

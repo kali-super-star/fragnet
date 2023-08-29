@@ -62,7 +62,7 @@ const RightSide = () => {
           className="rounded-md z-50 text-center items-center inline-flex h-[54px] px-[32px] text-[18px] font-[600] bg-[#e90e0e] hover:bg-[#f91d1d] text-white"
         >
           {I18n.t("orderNow")}
-          <FontAwesomeIcon icon={faArrowRight} className="ml-3"/fragnet/>
+          <FontAwesomeIcon icon={faArrowRight} className="ml-3" />
         </a>
       </div>
     </div>

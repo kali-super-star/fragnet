@@ -25,7 +25,7 @@ const Reviews: React.FC = () => {
           className="flex justify-center"
           href="https://www.trustpilot.com/review/fragnet.net"
         >
-          <img src={`${CDN}images/games-trustpilot.png`} alt="image"/>
+          <img src={`${CDN}images/games-trustpilot.png`} alt="images"/>
         </a>
       </div>
     </div>

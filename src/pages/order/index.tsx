@@ -6,7 +6,6 @@ import { fetchLocations } from "../../utils";
 import Footer from "../../components/Footer";
 import Location from "./Location";
 import RightSide from "./RightSide";
-import { useParams } from "react-router-dom";
 import classNames from "classnames";
 import Capability from "./Capability";
 import Billing from "./Billing";

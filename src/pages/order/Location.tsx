@@ -3,12 +3,7 @@ import { fetchLocations } from "../../utils";
 import { Location } from "../../types";
 import "./Location.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronDown,
-  faGauge,
-  faGaugeHigh,
-  faSpinner,
-} from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 interface Latency {
   [key: string]: number[];
@@ -157,7 +152,9 @@ function LatencyCheckPage() {
       <div className="ml-8">
         <h1 className="inline-flex uppercase font-[600] text-[22px] text-white items-center">
           <div className="h-[44px] skew-x-[-15deg] text-center leading-[44px] w-[48px] text-white rounded-[6px] bg-[#e90e0e] bg-[linear-gradient(134deg,#e90e0e_0%,#e92e1e_100%)] shadow-[0_2px_4px_0_rgba(0,0,0,0.69),inset_0_-2px_2px_0_rgba(55,0,0,0.20)] uppercase text-[24px] font-[600] mr-[24px]">
-            <div className="skew-x-[15deg]"><span>1</span></div>
+            <div className="skew-x-[15deg]">
+              <span>1</span>
+            </div>
           </div>
           Choose location
         </h1>
@@ -199,7 +196,10 @@ function LatencyCheckPage() {
         })}
       </div>
       {locations.length > visibleLocations.length && (
-        <button className="bg-[#e90e0e] ml-8 font-[600] text-[16px]" onClick={loadMoreLocations}>
+        <button
+          className="bg-[#e90e0e] ml-8 font-[600] text-[16px]"
+          onClick={loadMoreLocations}
+        >
           Load More Locations <FontAwesomeIcon icon={faChevronDown} />
         </button>
       )}

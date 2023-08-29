@@ -11,7 +11,7 @@ import Capability from "./Capability";
 import Billing from "./Billing";
 
 const BodyWrapper = styled.div`
-  background: url("/bg-minecraft.png") top center no-repeat;
+  background: url("/fragnet/bg-minecraft.png") top center no-repeat;
 `;
 
 const Order: React.FC = () => {

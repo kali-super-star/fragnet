@@ -9,7 +9,7 @@ const Reviews: React.FC = () => {
           Excellent
         </h1>
         <div className="flex justify-center my-3 mb-5">
-          <img src={`${CDN}images/fourfivestars.png`} alt="fourfivestars"/>
+          <img src={`${CDN}images/fourfivestars.png`} alt="fourfivestars" />
         </div>
         <span className="block my-2">
           Based on over{" "}
@@ -25,7 +25,7 @@ const Reviews: React.FC = () => {
           className="flex justify-center"
           href="https://www.trustpilot.com/review/fragnet.net"
         >
-          <img src={`${CDN}images/games-trustpilot.png`} alt="images"/>
+          <img src={`${CDN}images/games-trustpilot.png`} alt="images" />
         </a>
       </div>
     </div>

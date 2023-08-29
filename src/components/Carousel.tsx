@@ -366,7 +366,7 @@ const Carousel: React.FC<CarouselProps> = ({ games }) => {
               onClick={onClickNext}
               className="w-[32px] h-[48px]"
               style={{
-                background: `url("/slider-next.png") no-repeat`,
+                background: `url("/fragnet/slider-next.png") no-repeat`,
               }}
             ></div>
           </div>
@@ -375,7 +375,7 @@ const Carousel: React.FC<CarouselProps> = ({ games }) => {
               onClick={onClickPrev}
               className="w-[32px] h-[48px]"
               style={{
-                background: `url("/slider-prev.png") no-repeat`,
+                background: `url("/fragnet/slider-prev.png") no-repeat`,
               }}
             ></div>
           </div>

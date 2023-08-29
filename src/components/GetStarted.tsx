@@ -10,7 +10,7 @@ const GetStarted: React.FC = () => {
     <div
       className="w-full flex justify-center py-[88px]"
       style={{
-        background: "url('/section-divider.png') top center no-repeat",
+        background: "url('/fragnet/section-divider.png') top center no-repeat",
       }}
     >
       <div className="container flex max-w-[1280px]">
@@ -26,7 +26,7 @@ const GetStarted: React.FC = () => {
           <div className="xl:w-3/4 lg:w-5/6 grid md:grid-cols-4 grid-cols-2 mx-auto"></div>
           <div className="flex justify-start items-center">
             <Link
-              to="/register"
+              to="/fragnet/register"
               className="rounded-md z-50 text-center md:mx-0 mx-auto items-center flex h-[48px] px-[24px] text-[16px] font-[800] bg-[#e90e0e] text-white hover:bg-[#f91d1d] text-white"
             >
               {I18n.t("getStarted1")}
@@ -49,7 +49,7 @@ const GetStarted: React.FC = () => {
         <div
           className="w-1/2 md:flex hidden justify-center items-center h-[300px]"
           style={{
-            background: `url('/button-lines.png') center center no-repeat`,
+            background: `url('/fragnet/button-lines.png') center center no-repeat`,
           }}
         >
           <div className="flex items-end mt-8">

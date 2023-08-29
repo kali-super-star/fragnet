@@ -28,14 +28,14 @@ const Footer: React.FC = () => {
                 {I18n.t("builtForGamers")}{" "}
                 <img
                   className="w-[32px] h-auto m-3"
-                  src="/gamepad-icon.png"
+                  src="/fragnet/gamepad-icon.png"
                   alt="Gamepad"
                 />
               </h2>
             </div>
           </div>
           <div className="flex items-center px-7 rounded-md bg-[#292f3a] mr-4">
-            <Link to="/login" className="text-white font-[500] my-4">
+            <Link to="/fragnet/login" className="text-white font-[500] my-4">
               <FontAwesomeIcon icon={faUser} /> {I18n.t("customerLogin")}
             </Link>
           </div>
@@ -47,22 +47,22 @@ const Footer: React.FC = () => {
             <DropDown title={I18n.t("popularGames")}>
               <ul className="pt-4">
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">MineCraft</a>
+                  <a href="/fragnet/">MineCraft</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">Valheim</a>
+                  <a href="/fragnet/">Valheim</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">Battlefield 4</a>
+                  <a href="/fragnet/">Battlefield 4</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">Farming Simulator 2022</a>
+                  <a href="/fragnet/">Farming Simulator 2022</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">Rust</a>
+                  <a href="/fragnet/">Rust</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a className="text-[#ff0000]" href="/">
+                  <a className="text-[#ff0000]" href="/fragnet/">
                     All Games <FontAwesomeIcon icon={faArrowRight} />
                   </a>
                 </li>
@@ -73,16 +73,16 @@ const Footer: React.FC = () => {
             <DropDown title={I18n.t("products")}>
               <ul className="pt-4">
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">{I18n.t("gameServers")}</a>
+                  <a href="/fragnet/">{I18n.t("gameServers")}</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">{I18n.t("voiceServers")}</a>
+                  <a href="/fragnet/">{I18n.t("voiceServers")}</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">{I18n.t("discordBots")}</a>
+                  <a href="/fragnet/">{I18n.t("discordBots")}</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">{I18n.t("dedicatedServers")}</a>
+                  <a href="/fragnet/">{I18n.t("dedicatedServers")}</a>
                 </li>
               </ul>
             </DropDown>
@@ -91,25 +91,25 @@ const Footer: React.FC = () => {
             <DropDown title={I18n.t("aboutUs")}>
               <ul className="pt-4">
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">{I18n.t("aboutFragnet")}</a>
+                  <a href="/fragnet/">{I18n.t("aboutFragnet")}</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">Careers</a>
+                  <a href="/fragnet/">Careers</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">{I18n.t("whyChoose")}</a>
+                  <a href="/fragnet/">{I18n.t("whyChoose")}</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">{I18n.t("affiliateProgram")}</a>
+                  <a href="/fragnet/">{I18n.t("affiliateProgram")}</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">{I18n.t("contactUs")}</a>
+                  <a href="/fragnet/">{I18n.t("contactUs")}</a>
                 </li>
                 <li className="pt-1 hover:text-red-600 flex md:justify-start justify-center">
                   <span className="bg-[#44d11e] flex w-[5px] h-[5px] mt-[10px] mr-[5px] rounded-full">
                     {" "}
                   </span>
-                  <a className="" href="/">
+                  <a className="" href="/fragnet/">
                   {I18n.t("liveStatus")}
                   </a>
                 </li>
@@ -120,16 +120,16 @@ const Footer: React.FC = () => {
             <DropDown title={I18n.t("support")}>
               <ul className="pt-4">
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">{I18n.t("contactUs")}</a>
+                  <a href="/fragnet/">{I18n.t("contactUs")}</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">{I18n.t("knowledgebase")}</a>
+                  <a href="/fragnet/">{I18n.t("knowledgebase")}</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">{I18n.t("statusPage")}</a>
+                  <a href="/fragnet/">{I18n.t("statusPage")}</a>
                 </li>
                 <li className="pt-1 hover:text-red-600">
-                  <a href="/">{I18n.t("supportPanel")}</a>
+                  <a href="/fragnet/">{I18n.t("supportPanel")}</a>
                 </li>
               </ul>
             </DropDown>
@@ -143,16 +143,16 @@ const Footer: React.FC = () => {
           </h2>
           <ul className="flex flex-wrap justify-center md:justify-start">
             <li className="mr-7">
-              <img src="/ealogo.png" alt="EaLogo" />
+              <img src="/fragnet/ealogo.png" alt="EaLogo" />
             </li>
             <li className="mr-7">
-              <img src="/bohemia.png" alt="Bohemia" />
+              <img src="/fragnet/bohemia.png" alt="Bohemia" />
             </li>
             <li className="mr-7">
-              <img src="/esllogo.png" alt="EslLogo" />
+              <img src="/fragnet/esllogo.png" alt="EslLogo" />
             </li>
             <li className="mr-7">
-              <img src="/Esportal_logo2.png" alt="Esportal" />
+              <img src="/fragnet/Esportal_logo2.png" alt="Esportal" />
             </li>
           </ul>
         </div>
@@ -165,12 +165,12 @@ const Footer: React.FC = () => {
           <div className="flex flex-wrap justify-center">
             <ul className="flex md:mb-0 mb-5">
               <li className="mr-5">
-                <a href="/page/tos" className="hover:text-red-600">
+                <a href="/fragnet/page/tos" className="hover:text-red-600">
                 {I18n.t("termsOfService")}
                 </a>
               </li>
               <li>
-                <a href="/page/privacy" className="hover:text-red-600">
+                <a href="/fragnet/page/privacy" className="hover:text-red-600">
                 {I18n.t("privacyPolicy")}
                 </a>
               </li>

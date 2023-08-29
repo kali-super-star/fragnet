@@ -17,7 +17,7 @@ const RightSide = () => {
           <strong className="flex items-center text-white justify-center">
             Vanilla
             <div className="ml-1">
-              <img src="/question-mark.png" alt="question-mark" />
+              <img src="/fragnet/question-mark.png" alt="question-mark" />
             </div>
           </strong>
           <span>36-48 Players</span>
@@ -26,7 +26,7 @@ const RightSide = () => {
           <strong className="flex items-center text-white justify-center">
             Modded
             <div className="ml-1">
-              <img src="/question-mark.png" alt="question-mark" />
+              <img src="/fragnet/question-mark.png" alt="question-mark" />
             </div>
           </strong>
           <span>12-16 Players</span>
@@ -44,7 +44,7 @@ const RightSide = () => {
         <li className="py-2 px-5 bg-[#161E2B] mb-1">
           <h5>Location:</h5>
           <strong className="flex text-white">
-            New York, New York, USA <img className="ml-2" src="/flag-usa.png" alt="USA" />
+            New York, New York, USA <img className="ml-2" src="/fragnet/flag-usa.png" alt="USA" />
           </strong>
         </li>
         <li className="py-2 px-5 bg-[#161E2B] mb-1 rounded-b-lg">
@@ -58,11 +58,11 @@ const RightSide = () => {
           <small className="font-medium text-lg pt-4">/mo</small>
         </div>
         <a
-          href="/#"
+          href="/fragnet/#"
           className="rounded-md z-50 text-center items-center inline-flex h-[54px] px-[32px] text-[18px] font-[600] bg-[#e90e0e] hover:bg-[#f91d1d] text-white"
         >
           {I18n.t("orderNow")}
-          <FontAwesomeIcon icon={faArrowRight} className="ml-3"/>
+          <FontAwesomeIcon icon={faArrowRight} className="ml-3"/fragnet/>
         </a>
       </div>
     </div>

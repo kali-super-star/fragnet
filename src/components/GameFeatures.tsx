@@ -19,7 +19,7 @@ const GameFeatures: React.FC = () => {
               <ul className="text-md">
                 <li className="py-1 flex justify-center md:justify-start">
                   <img
-                    src="/red-tick.png"
+                    src="/fragnet/red-tick.png"
                     className="py-1 mr-2"
                     alt="red-tick"
                   />
@@ -28,7 +28,7 @@ const GameFeatures: React.FC = () => {
                 </li>
                 <li className="py-1 flex justify-center md:justify-start">
                   <img
-                    src="/red-tick.png"
+                    src="/fragnet/red-tick.png"
                     className="py-1 mr-2"
                     alt="red-tick"
                   />
@@ -37,7 +37,7 @@ const GameFeatures: React.FC = () => {
                 </li>
                 <li className="py-1 flex justify-center md:justify-start">
                   <img
-                    src="/red-tick.png"
+                    src="/fragnet/red-tick.png"
                     className="py-1 mr-2"
                     alt="red-tick"
                   />
@@ -49,7 +49,7 @@ const GameFeatures: React.FC = () => {
               <ul className="text-md">
                 <li className="py-1 flex justify-center md:justify-start">
                   <img
-                    src="/red-tick.png"
+                    src="/fragnet/red-tick.png"
                     className="py-1 mr-2"
                     alt="red-tick"
                   />
@@ -57,7 +57,7 @@ const GameFeatures: React.FC = () => {
                 </li>
                 <li className="py-1 flex justify-center md:justify-start">
                   <img
-                    src="/red-tick.png"
+                    src="/fragnet/red-tick.png"
                     className="py-1 mr-2"
                     alt="red-tick"
                   />
@@ -65,7 +65,7 @@ const GameFeatures: React.FC = () => {
                 </li>
                 <li className="py-1 flex justify-center md:justify-start">
                   <img
-                    src="/red-tick.png"
+                    src="/fragnet/red-tick.png"
                     className="py-1 mr-2"
                     alt="red-tick"
                   />
@@ -76,7 +76,7 @@ const GameFeatures: React.FC = () => {
           </div>
           <div className="grid lg:grid-cols-4 md:grid-cols-2 ">
             <div className="text-center px-[32px] pb-[54px]">
-              <img className="mx-auto" src="/sla.png" alt="SLA" />
+              <img className="mx-auto" src="/fragnet/sla.png" alt="SLA" />
               <h1 className="uppercase text-[18px] text-white font-bold pt-6 pb-1">
                 {I18n.t("satisfactionGuarantee")}
               </h1>
@@ -85,7 +85,7 @@ const GameFeatures: React.FC = () => {
             <div className="text-center px-[32px] pb-[54px]">
               <img
                 className="mx-auto"
-                src="/enterprise-hardware.png"
+                src="/fragnet/enterprise-hardware.png"
                 alt="Enterprise Hardware"
               />
               <h1 className="uppercase text-[18px] text-white font-bold pt-6 pb-1">
@@ -119,7 +119,7 @@ const GameFeatures: React.FC = () => {
             <div className="text-center px-[32px] pb-[54px]">
               <img
                 className="mx-auto"
-                src="/instant-setup.png"
+                src="/fragnet/instant-setup.png"
                 alt="Instant Setup"
               />
               <h1 className="uppercase text-[18px] text-white font-bold pt-6 pb-1">
@@ -130,7 +130,7 @@ const GameFeatures: React.FC = () => {
             <div className="text-center px-[32px] pb-[54px]">
               <img
                 className="mx-auto"
-                src="/control-panel.png"
+                src="/fragnet/control-panel.png"
                 alt="Control Panel"
               />
               <h1 className="uppercase text-[18px] text-white font-bold pt-6 pb-1">

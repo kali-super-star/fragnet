@@ -38,7 +38,7 @@ const Reviews: React.FC = () => {
                 onClick={clickHandler}
                 style={{
                   background:
-                    "url('/test-slider-next.png') center center no-repeat",
+                    "url('/fragnet/test-slider-next.png') center center no-repeat",
                   width: "22px",
                 }}
               ></div>
@@ -51,7 +51,7 @@ const Reviews: React.FC = () => {
                 onClick={clickHandler}
                 style={{
                   background:
-                    "url('/test-slider-prev.png') center center no-repeat",
+                    "url('/fragnet/test-slider-prev.png') center center no-repeat",
                   width: "22px",
                 }}
               ></div>

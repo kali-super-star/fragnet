@@ -16,7 +16,7 @@ const Features: React.FC = () => {
           </div>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 ">
             <div className="text-center px-[32px] pb-[54px]">
-              <img className="mx-auto" src="/sla.png" alt="SLA" />
+              <img className="mx-auto" src="/fragnet/sla.png" alt="SLA" />
               <h1 className="uppercase text-[18px] text-white font-bold pt-6 pb-1">
                 {I18n.t("satisfactionGuarantee")}
               </h1>
@@ -25,7 +25,7 @@ const Features: React.FC = () => {
             <div className="text-center px-[32px] pb-[54px]">
               <img
                 className="mx-auto"
-                src="/enterprise-hardware.png"
+                src="/fragnet/enterprise-hardware.png"
                 alt="Enterprise Hardware"
               />
               <h1 className="uppercase text-[18px] text-white font-bold pt-6 pb-1">
@@ -59,7 +59,7 @@ const Features: React.FC = () => {
             <div className="text-center px-[32px] pb-[54px]">
               <img
                 className="mx-auto"
-                src="/instant-setup.png"
+                src="/fragnet/instant-setup.png"
                 alt="Instant Setup"
               />
               <h1 className="uppercase text-[18px] text-white font-bold pt-6 pb-1">
@@ -70,7 +70,7 @@ const Features: React.FC = () => {
             <div className="text-center px-[32px] pb-[54px]">
               <img
                 className="mx-auto"
-                src="/server-monitoring.png"
+                src="/fragnet/server-monitoring.png"
                 alt="Server Monitoring"
               />
               <h1 className="uppercase text-[18px] text-white font-bold pt-6 pb-1">
@@ -90,7 +90,7 @@ const Features: React.FC = () => {
             <div className="text-center px-[32px] pb-[54px]">
               <img
                 className="mx-auto"
-                src="/gaming-networks.png"
+                src="/fragnet/gaming-networks.png"
                 alt="Gaming Networks"
               />
               <h1 className="uppercase text-[18px] text-white font-bold pt-6 pb-1">
@@ -101,7 +101,7 @@ const Features: React.FC = () => {
             <div className="text-center px-[32px] pb-[54px]">
               <img
                 className="mx-auto"
-                src="/control-panel.png"
+                src="/fragnet/control-panel.png"
                 alt="Control Panel"
               />
               <h1 className="uppercase text-[18px] text-white font-bold pt-6 pb-1">

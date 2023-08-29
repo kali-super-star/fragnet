@@ -67,7 +67,7 @@ const ServicesDropDown: React.FC = () => {
           </li>
           <li className="inline-block px-[15px] py-[6px]">
             <a
-              href="/"
+              href="/fragnet/"
               className="font-proxima-nova font-medium text-[16px] text-white"
             >
               {I18n.t('dedicatedServers ')}<span className="text-[#e90e0e]">{I18n.t('soon')}</span>

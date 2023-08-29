@@ -50,17 +50,17 @@ const Navbar = () => {
   const dispatch: AppDispatch = useDispatch();
 
   const localeData = [
-    { code: "sw", flag: "/flag-sweden.png", name: "Swedish" },
-    { code: "en", flag: "/flag-usa.png", name: "English" },
-    { code: "es", flag: "/flag-spain.png", name: "Español" },
-    { code: "ru", flag: "/flag-russia.png", name: "Русский" },
-    { code: "nl", flag: "/flag-netherlands.png", name: "Dutch" },
-    { code: "pl", flag: "/flag-poland.png", name: "Polski" },
-    { code: "de", flag: "/flag-germany.png", name: "Deutsch" },
-    { code: "fr", flag: "/flag-france.png", name: "Français" },
+    { code: "sw", flag: "/fragnet/flag-sweden.png", name: "Swedish" },
+    { code: "en", flag: "/fragnet/flag-usa.png", name: "English" },
+    { code: "es", flag: "/fragnet/flag-spain.png", name: "Español" },
+    { code: "ru", flag: "/fragnet/flag-russia.png", name: "Русский" },
+    { code: "nl", flag: "/fragnet/flag-netherlands.png", name: "Dutch" },
+    { code: "pl", flag: "/fragnet/flag-poland.png", name: "Polski" },
+    { code: "de", flag: "/fragnet/flag-germany.png", name: "Deutsch" },
+    { code: "fr", flag: "/fragnet/flag-france.png", name: "Français" },
   ];
 
-  let langMenu: LangMenu = { code: "en", flag: "/usa.png", name: "English" };
+  let langMenu: LangMenu = { code: "en", flag: "/fragnet/usa.png", name: "English" };
 
   localeData.forEach((e) => {
     if (e.code === locale) langMenu = e;
@@ -80,7 +80,7 @@ const Navbar = () => {
             <div className="flex items-center">
               <div className="w-8/12 md:w-auto lg:w-auto">
                 <Link
-                    to={'/'}
+                    to={'/fragnet/'}
                     className="fixlogo"
                 >
                   <img
@@ -96,7 +96,7 @@ const Navbar = () => {
                     <li className="inline-block px-[15px]">
                       <Link
                         className="uppercase font-proxima-nova font-medium text-[14px] text-white"
-                        to={'/page/gameservers/'}
+                        to={'/fragnet/page/gameservers/'}
                       >
                         {I18n.t("gameServers")}
                       </Link>
@@ -113,11 +113,11 @@ const Navbar = () => {
                               </span>
                             </div>
                           ),
-                          url: "/page/discord-bots/",
+                          url: "/fragnet/page/discord-bots/",
                         },
                         {
                           label: <div>{I18n.t("voiceServers")}</div>,
-                          url: "/page/voiceservers/",
+                          url: "/fragnet/page/voiceservers/",
                         },
                         {
                           label: (
@@ -128,13 +128,13 @@ const Navbar = () => {
                               </span>
                             </div>
                           ),
-                          url: "/",
+                          url: "/fragnet/",
                         },
                       ]}
                     />
                     <li className="inline-block px-[15px] uppercase">
                       <Link
-                        to={'/page/about/'}
+                        to={'/fragnet/page/about/'}
                         className="font-proxima-nova font-medium text-[14px] text-white"
                       >
                         {I18n.t("aboutUs")}
@@ -156,7 +156,7 @@ const Navbar = () => {
                       },
                       {
                         label: <div>{I18n.t("supportCenter")}</div>,
-                        url: "/",
+                        url: "/fragnet/",
                       },
                       {
                         label: (
@@ -195,13 +195,13 @@ const Navbar = () => {
                           >
                             <img
                               className="h-[25px]"
-                              src="/flag-usa.png"
+                              src="/fragnet/flag-usa.png"
                               alt="Usa-flag"
                             />
                             <span className="ml-3">English</span>
                           </div>
                         ),
-                        url: "/",
+                        url: "/fragnet/",
                       },
                       {
                         label: (
@@ -214,13 +214,13 @@ const Navbar = () => {
                           >
                             <img
                               className="h-[25px]"
-                              src="/flag-sweden.png"
+                              src="/fragnet/flag-sweden.png"
                               alt="sweden-flag"
                             />
                             <span className="ml-3">Swedish</span>
                           </div>
                         ),
-                        url: "/",
+                        url: "/fragnet/",
                       },
                       {
                         label: (
@@ -233,13 +233,13 @@ const Navbar = () => {
                           >
                             <img
                               className="h-[25px]"
-                              src="/flag-germany.png"
+                              src="/fragnet/flag-germany.png"
                               alt="germany-flag"
                             />
                             <span className="ml-3">Deutsch</span>
                           </div>
                         ),
-                        url: "/",
+                        url: "/fragnet/",
                       },
                       {
                         label: (
@@ -252,13 +252,13 @@ const Navbar = () => {
                           >
                             <img
                               className="h-[25px]"
-                              src="/flag-netherlands.png"
+                              src="/fragnet/flag-netherlands.png"
                               alt="netherlands-flag"
                             />
                             <span className="ml-3">Dutch</span>
                           </div>
                         ),
-                        url: "/",
+                        url: "/fragnet/",
                       },
                       {
                         label: (
@@ -271,13 +271,13 @@ const Navbar = () => {
                           >
                             <img
                               className="h-[18px] w-[25px]"
-                              src="/flag-spain.png"
+                              src="/fragnet/flag-spain.png"
                               alt="spain-flag"
                             />
                             <span className="ml-3">Español</span>
                           </div>
                         ),
-                        url: "/",
+                        url: "/fragnet/",
                       },
                       {
                         label: (
@@ -290,13 +290,13 @@ const Navbar = () => {
                           >
                             <img
                               className="h-[25px]"
-                              src="/flag-france.png"
+                              src="/fragnet/flag-france.png"
                               alt="france-flag"
                             />
                             <span className="ml-3">Français</span>
                           </div>
                         ),
-                        url: "/",
+                        url: "/fragnet/",
                       },
                       {
                         label: (
@@ -309,13 +309,13 @@ const Navbar = () => {
                           >
                             <img
                               className="h-[25px]"
-                              src="/flag-poland.png"
+                              src="/fragnet/flag-poland.png"
                               alt="pland-flag"
                             />
                             <span className="ml-3">Polski</span>
                           </div>
                         ),
-                        url: "/",
+                        url: "/fragnet/",
                       },
                       {
                         label: (
@@ -328,13 +328,13 @@ const Navbar = () => {
                           >
                             <img
                               className="h-[25px]"
-                              src="/flag-russia.png"
+                              src="/fragnet/flag-russia.png"
                               alt="russia-flag"
                             />
                             <span className="ml-3">Русский</span>
                           </div>
                         ),
-                        url: "/",
+                        url: "/fragnet/",
                       },
                     ]}
                   />
@@ -345,19 +345,19 @@ const Navbar = () => {
                     items={[
                       {
                         label: "USD $",
-                        url: "/",
+                        url: "/fragnet/",
                       },
                       {
                         label: "EUR €",
-                        url: "/",
+                        url: "/fragnet/",
                       },
                       {
                         label: "GBP £",
-                        url: "/",
+                        url: "/fragnet/",
                       },
                       {
                         label: "SEK kr",
-                        url: "/",
+                        url: "/fragnet/",
                       },
                     ]}
                   />
@@ -419,7 +419,7 @@ const Navbar = () => {
           <ul className="flex flex-col items-center h-full justify-center ">
             <li className="inline-block px-[15px] py-[6px]">
               <Link
-                to={'/'}
+                to={'/fragnet/'}
                 className=" font-proxima-nova font-medium text-[16px] text-white"
               >
                 {I18n.t("home")}
@@ -427,7 +427,7 @@ const Navbar = () => {
             </li>
             <li className="inline-block px-[15px] py-[6px]">
               <Link
-                to={'/page/gameservers/'}
+                to={'/fragnet/page/gameservers/'}
                 className=" font-proxima-nova font-medium text-[16px] text-white"
               >
                 {I18n.t("gameServers")}
@@ -436,7 +436,7 @@ const Navbar = () => {
             <ServicesDropDown />
             <li className="inline-block px-[15px] py-[6px]">
               <Link
-                to={'/page/about/'}
+                to={'/fragnet/page/about/'}
                 className="font-proxima-nova font-medium text-[16px] text-white"
               >
                 {I18n.t("aboutUs")}
@@ -444,7 +444,7 @@ const Navbar = () => {
             </li>
             <li className="inline-block px-[15px] py-[6px]">
               <Link
-                to={'/'}
+                to={'/fragnet/'}
                 className="font-proxima-nova font-medium text-[16px] text-white"
               >
                 {I18n.t("support")}

@@ -18,11 +18,11 @@ const App: React.FC = () => {
         <Header />
         <div className={`min-h-screen font-proxima`}>
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/games/:slug" element={<GamePage />} />
+            <Route path="/fragnet/" element={<HomePage />} />
+            <Route path="/fragnet/games/:slug" element={<GamePage />} />
             <Route path={`/locations`} element={<Location />} />
-            <Route path={"/games/:slug/order"} element={<Order />} />
-            <Route path={"/page/gameservers/"} element={<GameServers />} />
+            <Route path={"/fragnet/games/:slug/order"} element={<Order />} />
+            <Route path={"/fragnet/page/gameservers/"} element={<GameServers />} />
           </Routes>
         </div>
       </Router>

@@ -61,7 +61,7 @@ const Timer = () => {
       <h2
         className="w-20 md:text-[36px] text-[30px] uppercase font-[900] text-white text-center px-[10px]"
         style={{
-          background: "url('/timer-divider.png') right 1px top 18px no-repeat",
+          background: "url('/fragnet/timer-divider.png') right 1px top 18px no-repeat",
         }}
       >
         {days}
@@ -70,7 +70,7 @@ const Timer = () => {
       <h2
         className="w-20 md:text-[36px] text-[30px] uppercase font-[900] text-white text-center px-[10px]"
         style={{
-          background: "url('/timer-divider.png') right 1px top 18px no-repeat",
+          background: "url('/fragnet/timer-divider.png') right 1px top 18px no-repeat",
         }}
       >
         {hours >= 10 ? hours : "0" + hours}
@@ -79,7 +79,7 @@ const Timer = () => {
       <h2
         className="w-20 md:text-[36px] text-[30px] uppercase font-[900] text-white text-center px-[10px]"
         style={{
-          background: "url('/timer-divider.png') right 1px top 18px no-repeat",
+          background: "url('/fragnet/timer-divider.png') right 1px top 18px no-repeat",
         }}
       >
         {minutes >= 10 ? minutes : "0" + minutes}
@@ -98,7 +98,7 @@ const PromoContainer: React.FC = () => {
     <div
       className="w-full flex justify-center text-white/[.8] py-12"
       style={{
-        background: "url('/red-bg.png') center right no-repeat #e90e0e",
+        background: "url('/fragnet/red-bg.png') center right no-repeat #e90e0e",
       }}
     >
       <div className="container max-w-[1280px] md:text-start text-center">

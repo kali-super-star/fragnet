@@ -15,7 +15,7 @@ import Footer from "../components/Footer";
 const HomePage: React.FC = () => {
   const [games, setGames] = useState<Game[]>([]);
   useEffect(() => {
-    fetchData("/games").then(setGames);
+    fetchData("/fragnet/games").then(setGames);
     document.title = "Premium Server Hosting | Built for Gamers";
   }, []);
 

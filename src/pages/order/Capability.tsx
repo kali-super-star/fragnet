@@ -248,7 +248,7 @@ const Capability = () => {
                 <div className="col px-3">
                   <div className="bg-[linear-gradient(180deg,#162032_0%,#161E2B_24%,#161E2B_100%)] border border-[#212A39] rounded-[6px] p-[46px_4px_60px_4px] text-center relative">
                     <img
-                      src="/modpack-atl.svg"
+                      src="/fragnet/modpack-atl.svg"
                       alt="modpack"
                       className="mx-auto"
                     />
@@ -261,7 +261,7 @@ const Capability = () => {
                 <div className="col px-3">
                   <div className="bg-[linear-gradient(180deg,#162032_0%,#161E2B_24%,#161E2B_100%)] border border-[#212A39] rounded-[6px] p-[46px_4px_60px_4px] text-center relative">
                     <img
-                      src="/modpack-atl.svg"
+                      src="/fragnet/modpack-atl.svg"
                       alt="modpack"
                       className="mx-auto"
                     />
@@ -274,7 +274,7 @@ const Capability = () => {
                 <div className="col px-3">
                   <div className="bg-[linear-gradient(180deg,#162032_0%,#161E2B_24%,#161E2B_100%)] border border-[#212A39] rounded-[6px] p-[46px_4px_60px_4px] text-center relative">
                     <img
-                      src="/modpack-atl.svg"
+                      src="/fragnet/modpack-atl.svg"
                       alt="modpack"
                       className="mx-auto"
                     />
@@ -287,7 +287,7 @@ const Capability = () => {
                 <div className="col px-3">
                   <div className="bg-[linear-gradient(180deg,#162032_0%,#161E2B_24%,#161E2B_100%)] border border-[#212A39] rounded-[6px] p-[46px_4px_60px_4px] text-center relative">
                     <img
-                      src="/modpack-atl.svg"
+                      src="/fragnet/modpack-atl.svg"
                       alt="modpack"
                       className="mx-auto"
                     />

@@ -38,7 +38,7 @@ const GameServers: React.FC = () => {
     <div className={"w-full my-0 mx-auto"}>
       <div
         className="relative py-20 pt-48 h-auto pb-0 bg-center bg-no-repeat bg-cover"
-        style={{ backgroundImage: `url("/bg-games.png")` }}
+        style={{ backgroundImage: `url("/fragnet/bg-games.png")` }}
       >
         <div className="max-w-7xl my-0 mx-auto px-4 w-full">
           <div className="flex flex-wrap mx-[-15px]">
@@ -195,7 +195,7 @@ const GameServers: React.FC = () => {
           <div className="col px-3 filter-item xl:w-1/4 lg:w-1/3 w-1/2 sandbox">
             <div
               className="rounded-xl md:h-[180px] h-[150px] w-full mb-5 p-[18px] hover:scale-[.97] duration-200 group"
-              style={{ background: `url('/gamelist/game-7d2d.png') 0 0/cover` }}
+              style={{ background: `url('/fragnet/gamelist/game-7d2d.png') 0 0/cover` }}
             >
               <h1 className="md:text-[16px] text-[12px] font-[600] font-[600] italic text-white uppercase">
                 7 Days to die
@@ -209,7 +209,7 @@ const GameServers: React.FC = () => {
             <div
               className="rounded-xl md:h-[180px] h-[150px] w-full mb-5 p-[18px] hover:scale-[.97] duration-200 group"
               style={{
-                background: `url('/gamelist/game-conan.png') 0 0/cover`,
+                background: `url('/fragnet/gamelist/game-conan.png') 0 0/cover`,
               }}
             >
               <h1 className="md:text-[16px] text-[12px] font-[600] italic text-white uppercase">
@@ -223,7 +223,7 @@ const GameServers: React.FC = () => {
           <div className="col px-3 filter-item xl:w-1/4 lg:w-1/3 w-1/2 popular">
             <div
               className="rounded-xl md:h-[180px] h-[150px] w-full mb-5 p-[18px] hover:scale-[.97] duration-200 group"
-              style={{ background: `url('/gamelist/game-ark.png') 0 0/cover` }}
+              style={{ background: `url('/fragnet/gamelist/game-ark.png') 0 0/cover` }}
             >
               <h1 className="md:text-[16px] text-[12px] font-[600] italic text-white uppercase">
                 Ark: survival evolved
@@ -236,7 +236,7 @@ const GameServers: React.FC = () => {
           <div className="col px-3 filter-item xl:w-1/4 lg:w-1/3 w-1/2 sandbox">
             <div
               className="rounded-xl md:h-[180px] h-[150px] w-full mb-5 p-[18px] hover:scale-[.97] duration-200 group"
-              style={{ background: `url('/gamelist/game-arma.png') 0 0/cover` }}
+              style={{ background: `url('/fragnet/gamelist/game-arma.png') 0 0/cover` }}
             >
               <h1 className="md:text-[16px] text-[12px] font-[600] italic text-white uppercase">
                 Arma 3{" "}
@@ -249,7 +249,7 @@ const GameServers: React.FC = () => {
           <div className="col px-3 filter-item xl:w-1/4 lg:w-1/3 w-1/2 survival">
             <div
               className="rounded-xl md:h-[180px] h-[150px] w-full mb-5 p-[18px] hover:scale-[.97] duration-200 group"
-              style={{ background: `url('/gamelist/game-bf2.png') 0 0/cover` }}
+              style={{ background: `url('/fragnet/gamelist/game-bf2.png') 0 0/cover` }}
             >
               <h1 className="md:text-[16px] text-[12px] font-[600] italic text-white uppercase">
                 BATTLEFIELD BAD COMPANY 2
@@ -262,7 +262,7 @@ const GameServers: React.FC = () => {
           <div className="col px-3 filter-item xl:w-1/4 lg:w-1/3 w-1/2 popular survival">
             <div
               className="rounded-xl md:h-[180px] h-[150px] w-full mb-5 p-[18px] hover:scale-[.97] duration-200 group"
-              style={{ background: `url('/gamelist/game-bf3.png') 0 0/cover` }}
+              style={{ background: `url('/fragnet/gamelist/game-bf3.png') 0 0/cover` }}
             >
               <h1 className="md:text-[16px] text-[12px] font-[600] italic text-white uppercase">
                 7 Days to die
@@ -275,7 +275,7 @@ const GameServers: React.FC = () => {
           <div className="col px-3 filter-item xl:w-1/4 lg:w-1/3 w-1/2 fps simulation">
             <div
               className="rounded-xl md:h-[180px] h-[150px] w-full mb-5 p-[18px] hover:scale-[.97] duration-200 group"
-              style={{ background: `url('/gamelist/game-bf4.png') 0 0/cover` }}
+              style={{ background: `url('/fragnet/gamelist/game-bf4.png') 0 0/cover` }}
             >
               <h1 className="md:text-[16px] text-[12px] font-[600] italic text-white uppercase">
                 BATTLEFIELD 4
@@ -289,7 +289,7 @@ const GameServers: React.FC = () => {
             <div
               className="rounded-xl md:h-[180px] h-[150px] w-full mb-5 p-[18px] hover:scale-[.97] duration-200 group"
               style={{
-                background: `url('/gamelist/game-minecraft.png') 0 0/cover`,
+                background: `url('/fragnet/gamelist/game-minecraft.png') 0 0/cover`,
               }}
             >
               <h1 className="md:text-[16px] text-[12px] font-[600] italic text-white uppercase">
@@ -303,7 +303,7 @@ const GameServers: React.FC = () => {
           <div className="col px-3 filter-item xl:w-1/4 lg:w-1/3 w-1/2 fps">
             <div
               className="rounded-xl md:h-[180px] h-[150px] w-full mb-5 p-[18px] hover:scale-[.97] duration-200 group"
-              style={{ background: `url('/gamelist/game-csgo.png') 0 0/cover` }}
+              style={{ background: `url('/fragnet/gamelist/game-csgo.png') 0 0/cover` }}
             >
               <h1 className="md:text-[16px] text-[12px] font-[600] italic text-white uppercase">
                 Counter-strike:go
@@ -316,7 +316,7 @@ const GameServers: React.FC = () => {
           <div className="col px-3 filter-item xl:w-1/4 lg:w-1/3 w-1/2">
             <div
               className="rounded-xl md:h-[180px] h-[150px] w-full mb-5 p-[18px] hover:scale-[.97] duration-200 group"
-              style={{ background: `url('/gamelist/game-dayz.png') 0 0/cover` }}
+              style={{ background: `url('/fragnet/gamelist/game-dayz.png') 0 0/cover` }}
             >
               <h1 className="md:text-[16px] text-[12px] font-[600] italic text-white uppercase">
                 dayz standalone
@@ -329,7 +329,7 @@ const GameServers: React.FC = () => {
           <div className="col px-3 filter-item xl:w-1/4 lg:w-1/3 w-1/2 popular fps">
             <div
               className="rounded-xl md:h-[180px] h-[150px] w-full mb-5 p-[18px] hover:scale-[.97] duration-200 group"
-              style={{ background: `url('/gamelist/game-fs19.png') 0 0/cover` }}
+              style={{ background: `url('/fragnet/gamelist/game-fs19.png') 0 0/cover` }}
             >
               <h1 className="md:text-[16px] text-[12px] font-[600] italic text-white uppercase">
                 farming simulator 2019

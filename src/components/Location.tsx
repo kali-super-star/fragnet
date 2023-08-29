@@ -17,10 +17,10 @@ interface CityProps {
 
 const Map = styled.div`
   @media (min-width: 768px) {
-    background: url("/mapv1.png");
+    background: url("/fragnet/mapv1.png");
   }
   @media (width < 768px) {
-    background: url("/map-sm.png");
+    background: url("/fragnet/map-sm.png");
     background-size: 400px 219px;
     height: 219px;
     max-width: 400px;
@@ -49,7 +49,7 @@ const city: CityProps[] = [
     left: 44,
     smtop: 90,
     smleft: 12,
-    flag: "/flag-usa.png",
+    flag: "/fragnet/flag-usa.png",
     speed: 20,
     providers: "Cogent, GTT",
   },
@@ -59,7 +59,7 @@ const city: CityProps[] = [
     left: 49,
     smtop: 75,
     smleft: 5,
-    flag: "/flag-usa.png",
+    flag: "/fragnet/flag-usa.png",
     speed: 20,
     providers: "I3D, Cogent, GTT",
   },
@@ -69,7 +69,7 @@ const city: CityProps[] = [
     left: 170,
     smtop: 75,
     smleft: 43,
-    flag: "/flag-usa.png",
+    flag: "/fragnet/flag-usa.png",
     speed: 20,
     providers: "Cogent, GTT",
   },
@@ -79,7 +79,7 @@ const city: CityProps[] = [
     left: 170,
     smtop: 88,
     smleft: 30,
-    flag: "/flag-usa.png",
+    flag: "/fragnet/flag-usa.png",
     speed: 40,
     providers: "Cogent, GTT, Telia",
   },
@@ -89,7 +89,7 @@ const city: CityProps[] = [
     left: 351,
     smtop: 161,
     smleft: 84,
-    flag: "/flag-brazil.png",
+    flag: "/fragnet/flag-brazil.png",
     speed: 60,
     providers: "IX.br, Equinix IX",
   },
@@ -99,7 +99,7 @@ const city: CityProps[] = [
     left: 285,
     smtop: 79,
     smleft: 58,
-    flag: "/flag-usa.png",
+    flag: "/fragnet/flag-usa.png",
     speed: 20,
     providers: "Cogent, GTT",
   },
@@ -109,7 +109,7 @@ const city: CityProps[] = [
     left: 300,
     smtop: 78,
     smleft: 59,
-    flag: "/flag-usa.png",
+    flag: "/fragnet/flag-usa.png",
     speed: 20,
     providers: "Cogent, GTT",
   },
@@ -119,7 +119,7 @@ const city: CityProps[] = [
     left: 270,
     smtop: 69,
     smleft: 57,
-    flag: "/flag-canada.png",
+    flag: "/fragnet/flag-canada.png",
     speed: 60,
     providers: "i3D, Telia and more",
   },
@@ -129,7 +129,7 @@ const city: CityProps[] = [
     left: 256,
     smtop: 89,
     smleft: 48,
-    flag: "/flag-usa.png",
+    flag: "/fragnet/flag-usa.png",
     speed: 20,
     providers: "Level 3, Comcast",
     server: "Century Link, NTT, Cogent, GTT, HE",
@@ -140,7 +140,7 @@ const city: CityProps[] = [
     left: 490,
     smtop: 45,
     smleft: 158,
-    flag: "/flag-norway.png",
+    flag: "/fragnet/flag-norway.png",
     speed: 10,
     providers: "Cogent, IP-Only,",
     server: "Hurricane Electric, Telia",
@@ -151,7 +151,7 @@ const city: CityProps[] = [
     left: 370,
     smtop: 57,
     smleft: 157,
-    flag: "/flag-netherlands.png",
+    flag: "/fragnet/flag-netherlands.png",
     speed: 160,
     providers: "Telia, Cogent, GTT,",
     server: "NTT, AMS-IX, NL-IX, Worldstream",
@@ -162,7 +162,7 @@ const city: CityProps[] = [
     left: 400,
     smtop: 57,
     smleft: 146,
-    flag: "/flag-uk.png",
+    flag: "/fragnet/flag-uk.png",
     speed: 160,
     providers: "Telia, NTT, GTT,",
     server: "LINX, Virgin Media",
@@ -173,7 +173,7 @@ const city: CityProps[] = [
     left: 400,
     smtop: 68,
     smleft: 151,
-    flag: "/flag-france.png",
+    flag: "/fragnet/flag-france.png",
     speed: 100,
     providers: "Telia, NTT,",
     server: "Level 3, Telstra, TATA",
@@ -184,7 +184,7 @@ const city: CityProps[] = [
     left: 480,
     smtop: 65,
     smleft: 161,
-    flag: "/flag-germany.png",
+    flag: "/fragnet/flag-germany.png",
     speed: 100,
     providers: "Telia, DTAG,",
     server: "NTT & more",
@@ -195,7 +195,7 @@ const city: CityProps[] = [
     left: 560,
     smtop: 73,
     smleft: 170,
-    flag: "/flag-serbia.png",
+    flag: "/fragnet/flag-serbia.png",
     speed: 20,
     providers: "Cogent, RETN,",
     server: "Hurricane Electric",
@@ -206,7 +206,7 @@ const city: CityProps[] = [
     left: 560,
     smtop: 58,
     smleft: 168,
-    flag: "/flag-poland.png",
+    flag: "/fragnet/flag-poland.png",
     speed: 80,
     providers: "Equinix",
   },
@@ -216,7 +216,7 @@ const city: CityProps[] = [
     left: 575,
     smtop: 41,
     smleft: 173,
-    flag: "/flag-finland.png",
+    flag: "/fragnet/flag-finland.png",
     speed: 40,
     providers: "Telia, Lumen",
   },
@@ -226,7 +226,7 @@ const city: CityProps[] = [
     left: 535,
     smtop: 44,
     smleft: 166,
-    flag: "/flag-sweden.png",
+    flag: "/fragnet/flag-sweden.png",
     speed: 100,
     providers: "Portlane, OBE,",
     server: "Hurricane Electric",
@@ -237,7 +237,7 @@ const city: CityProps[] = [
     left: 900,
     smtop: 84,
     smleft: 306,
-    flag: "/flag-japan.png",
+    flag: "/fragnet/flag-japan.png",
     speed: 20,
     providers: "NTT, HE",
   },
@@ -247,7 +247,7 @@ const city: CityProps[] = [
     left: 680,
     smtop: 128,
     smleft: 267,
-    flag: "/flag-singapore.png",
+    flag: "/fragnet/flag-singapore.png",
     speed: 20,
     providers: "NTT, TATA",
     server: "Hurricane Electric",
@@ -258,7 +258,7 @@ const city: CityProps[] = [
     left: 820,
     smtop: 168,
     smleft: 314,
-    flag: "/flag-australia.png",
+    flag: "/fragnet/flag-australia.png",
     speed: 20,
     providers: "NTT, TATA",
   },
@@ -278,7 +278,7 @@ const Location: React.FC = () => {
                 <h5 className="uppercase text-[18px] text-white font-bold flex">
                   22 {I18n.t("locations")}
                   <div className="ml-3 pt-1">
-                    <img src="/question-mark.png" alt="question-mark" />
+                    <img src="/fragnet/question-mark.png" alt="question-mark" />
                   </div>
                 </h5>
               </div>
@@ -289,7 +289,7 @@ const Location: React.FC = () => {
                 <h5 className="uppercase text-[18px] text-white font-bold flex">
                   7 {I18n.t("tbps")}
                   <div className="ml-3 pt-1">
-                    <img src="/question-mark.png" alt="question-mark" />
+                    <img src="/fragnet/question-mark.png" alt="question-mark" />
                   </div>
                 </h5>
               </div>
@@ -300,7 +300,7 @@ const Location: React.FC = () => {
                 <h5 className="uppercase text-[18px] text-white font-bold flex">
                   {I18n.t("protection")}
                   <div className="ml-3 pt-1">
-                    <img src="/question-mark.png" alt="question-mark" />
+                    <img src="/fragnet/question-mark.png" alt="question-mark" />
                   </div>
                 </h5>
               </div>
@@ -311,7 +311,7 @@ const Location: React.FC = () => {
                 <h5 className="uppercase text-[18px] text-white font-bold flex">
                   ~20 ms
                   <div className="ml-3 pt-1">
-                    <img src="/question-mark.png" alt="question-mark" />
+                    <img src="/fragnet/question-mark.png" alt="question-mark" />
                   </div>
                 </h5>
               </div>
@@ -319,7 +319,7 @@ const Location: React.FC = () => {
             </li>
           </ul>
           <a
-            href="/"
+            href="/fragnet/"
             className="rounded-md z-50 text-center md:mx-0 mx-auto items-center md:hidden flex xl:flex w-[155px] h-[48px] px-[24px] text-[16px] font-[800] bg-[#e90e0e] text-white hover:bg-[#f91d1d] text-white"
           >
             {I18n.t("checkLatency")}
@@ -358,7 +358,7 @@ const Location: React.FC = () => {
                         <li>
                           {I18n.t("testServers")}
                           {":"}
-                          <a href="/#" className="ml-1 font-bold text-red-500">
+                          <a href="./#" className="ml-1 font-bold text-red-500">
                             {I18n.t("comingSoon")}
                           </a>
                         </li>
